@@ -1,0 +1,630 @@
+    *{
+    margin: 0px;
+    padding: 0%;
+}
+
+header{
+    background-color: #ECEBB3;
+    padding: 12px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Koulen";
+    font-size: 25px;
+    align-items: center;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+header a{
+    text-decoration: none;
+}
+header ul li{
+    padding: 15px;
+}
+
+
+body{
+    background-color: rgb(110, 158, 206);
+}
+h1{
+    font-size: 30px;
+    font-family: "Koulen";
+}
+#mensajeBienvenida{
+    font-family: "Lato"; font-size: 22px; text-align: center;
+    margin: 30px;
+}
+#logolema{
+    text-align: center;
+}
+#logoLema p{
+    font-family: "Mr Dafoe"; 
+    font-size: 50px; 
+    text-align: center;
+    padding: 15px;
+}
+
+                            /*seccion noticias*/
+.noticias{
+    background-color: #dde1ce;
+    font-family: "Koulen"; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+.caja{
+    background-color: blanchedalmond;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    font-family: "Koulen";
+}
+h4{
+    font-family: "Lato";
+}
+.text-color{
+    color: black;
+}
+
+section{
+    font-family: "Lato";
+}
+
+                                    /*footer*/
+
+footer{
+    background-image: url(../media/background2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    align-items: center;
+}
+
+ul a{
+    text-decoration: none;
+    color: #2a2c2e;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centro h4{
+    text-align: center;
+}
+.centro #centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.cajafooter{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cajafooter .presentacion{
+    font-family: "Lato";
+}
+.cajafooter .centro{
+    font-family: "Koulen";
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+.cajafooter .redes{
+    font-family: "Lato";
+}
+.redes p{
+    text-align: center;
+}
+
+.creador{
+    text-align: center;
+    font-family: "Lato";
+}
+.redes .centrar{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.centrar img{
+    padding: 8px;
+}
+
+                                /*titulos*/
+#quienessomos{
+    font-family: "Koulen";
+    font-size: 15px;
+    text-align: center;
+}
+#cursos{
+    font-family: "Koulen";
+    font-size: 15px;
+    text-align: center;
+}
+#flota{
+    font-family: "Koulen";
+    font-size: 15px;
+    text-align: center;
+}
+#galeria{
+    font-family: "Koulen";
+    font-size: 15px;
+    text-align: center;
+}
+#contactanos{
+    font-family: "Koulen";
+    font-size: 15px;
+    text-align: center;
+}
+
+                    /*galeria*/
+.cajafotos{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.cajafotos img{
+    max-width: 400px;
+    padding: 8px
+}
+
+                        /*contacto*/
+main .cajacontacto{
+    display: flex;
+    flex-direction: row;
+    font-family: "Lato";
+    justify-content: space-evenly;
+}
+
+.datos #correo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+}
+.datos #localizacion{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+}
+.datos #localizacion #textoLocalizacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.datos #whatsapp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+}
+h5{
+    text-align: center;
+}
+
+.btn-enviar{
+    background-color: #dde1ce;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-enviar:hover{
+    background-color: #2a2c2e;
+    color: white;
+}
+.btn-enviar:active{
+    background-color: bisque;
+}
+                        /*cursos*/
+
+main .cajacursos1{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.cajacursos1 .privado{
+    width: 400px;
+    height: 255px;
+    background-color: #ebeab2; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.cajacursos1 .instrumentos{
+    width: 400px;
+    height: 255px;
+    background-color: #ebeab2; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+main .cajacursos2{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.cajacursos2 .comercial{
+    width: 400px;
+    height: 255px;
+    background-color: #ebeab2; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.cajacursos2 .instructor{
+    width: 400px;
+    height: 255px;
+    background-color: #ebeab2; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+main .cajacursos3{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.cajacursos3 .multimotor{
+    width: 400px;
+    height: 255px;
+    background-color: #ebeab2; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.cajacursos3 .entrenamiento{
+    width: 400px;
+    height: 255px;
+    background-color: #ebeab2; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+                /*nosotros*/
+main .somos{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px;
+    align-items: start;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.texto2{
+    margin-right: 15px;
+}
+
+h5{
+    font-family: "Koulen";
+    font-size: 15px;
+}
+p{
+    font-family: "Lato";
+}
+main .mision{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px;
+}
+
+.imagen2{
+    display: flex;
+    justify-content: center;
+}
+
+main .reseñas{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px; 
+    justify-content: center;      
+}
+.reseñas h3{
+    text-align: center;
+}
+.instructores{
+    text-align: center;
+    width: 200px;
+    height: 320px;
+    background-color: #ebeab2; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.alumnos{
+    text-align: center;
+    width: 200px;
+    height: 320px;
+    background-color: #ebeab2; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);;
+}
+.ex-alumnos{
+    text-align: center;
+    width: 200px;
+    height: 320px;
+    background-color: #ebeab2; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);;
+}
+
+        /*flota*/
+#flota p{
+    text-align: start;
+}
+#flota img{
+    margin-top: 30px;
+}
+#flota #simulador{
+    margin-bottom: 30px;
+}
+
+
+/* menu hamburguesa */
+#menu, #menu-check{
+    display: none;
+}
+
+/* Media Query  */
+@media (max-width: 992px){
+    main .reseñas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajafooter{
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .presentacion{
+        text-align: center;
+    }
+    .centro{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .caja{
+        flex-direction: column;
+        align-items: center;
+    }
+    .noticia2{
+        padding: 0px;
+    } 
+}
+
+@media (min-width:577px) and (max-width:991px){
+    header{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px){
+    main .cajacontacto{    
+        flex-direction: column;
+        align-items: center;
+    }
+    .datos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajafotos{
+        align-items: center;
+    }
+    main .cajacursos1{
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+    main .cajacursos2{
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+    main .cajacursos3{
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+    .cajacursos1 .privado{
+        width: 75%;
+        height: 25%;
+    }
+    .cajacursos1 .instrumentos{
+        width: 75%;
+        height: 25%;
+    }
+    .cajacursos2 .comercial{
+        width: 75%;
+        height: 25%;
+    }
+    .cajacursos2 .instructor{
+        width: 75%;
+        height: 25%;
+    }
+    .cajacursos3 .multimotor{
+        width: 75%;
+        height: 25%;
+    }
+    .cajacursos3 .entrenamiento{
+        width: 75%;
+        height: 25%;
+    }
+    .col-12 .col-xl-12 .noticia2 .noticia-2{
+        flex-direction: column;
+    }
+    .col-12 .col-xl-12 .noticia3 .noticia-3{
+        flex-direction: column;
+    }
+    .noticia-2 .video{
+        display: grid;
+        place-items: center;
+    }
+    .noticia3 .noticia-3{
+        display: grid;
+        place-items: center;
+    }
+    .col-12 .col-xl-12{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+
+    /* menu hamburguesa */
+    #menu-check:not(:checked) ~ nav{
+        display: none;
+    }
+    #menu-check:checked ~ nav{
+        display: block;
+    }
+    #menu{
+        display: block;
+        color: black;
+        background-color: #ecebb3;
+        font-size: 35px;
+        font-weight: bold;
+        border: 2px;
+        border-radius: 5px;
+        position: absolute;
+        right: 45px;
+        top: 30px;
+        z-index: 9999;
+    }
+    #menu-cerrar{
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-abrir{
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-cerrar{
+        display: block;
+    }
+            
+    header nav{
+        position: absolute;
+        top: 5px;
+        height: 60%;
+        width: 100%;
+        background-color: #2a2c2e;
+        padding-top: 2px;
+        padding-right: 2px;
+        opacity: 0.8;
+        color: white;
+    }
+            
+    header nav ul a{
+        color: white;
+        background-color: none; 
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+    }
+    
+    /* nosotros responsive */
+    main .somos{
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+    }
+    main .mision{
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+    }
+    .somos img{
+        width: 85%;
+    }
+}
+    
+    /*seccion noticias*/
+.noticia3 .noticia-3{
+    display: flex; 
+    flex-direction: row;
+}
+.noticia2 .noticia-2{
+    display: flex;
+    flex-direction: row;
+}
+    
+.noticia-2 p{
+    margin-left: 12px;
+}
+.noticia-3 p{
+    margin-left: 12px;
+}
+    
+.noticia1 .imagen-noticia{
+    display: flex; 
+    justify-content: center;
+}
+.container-fluid{ 
+    padding: 12px;
+}
