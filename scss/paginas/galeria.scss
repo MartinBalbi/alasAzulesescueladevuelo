@@ -1,0 +1,16 @@
+main{
+    #galeria{
+    font-family: "Montserrat";
+    font-size: 15px;
+    text-align: center;
+    }
+    .cajafotos{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        img{
+            max-width: 400px;
+            padding: 8px
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@import "../basics/mediaquerys";
+
+
+footer{
+    background-image: url(../media/background2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    .cajafooter{
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .presentacion{
+            font-family: "Lato";
+        }
+        .centro{
+            font-family: "Montserrat";
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            align-items: center;
+            text-align: center;
+            .centrar{
+                padding: 5px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                ul{
+                    list-style-type: none;
+                    align-items: center;
+                    li{
+                        list-style-type: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center; 
+                    }
+                }
+                
+            }
+        }
+        .redes{
+            font-family: "Lato";
+            p{
+                text-align: center;
+            }
+            .centrar{
+                @include mediaquery{
+                    text-align: center;
+                }
+            }
+        }
+
+        @include mediaquery{
+            display: block;
+        }
+
+    }
+    .creador{
+        text-align: center;
+        font-family: "Lato";
+    }
+}
+
+ul{
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        color: #2a2c2e;
+    }
+}

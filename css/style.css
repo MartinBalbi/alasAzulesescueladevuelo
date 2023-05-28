@@ -9,7 +9,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: "Koulen";
+    font-family: "Montserrat";
     font-size: 25px;
     align-items: center;
 }
@@ -35,7 +35,7 @@ body{
 }
 h1{
     font-size: 30px;
-    font-family: "Koulen";
+    font-family: "Montserrat";
 }
 #mensajeBienvenida{
     font-family: "Lato"; font-size: 22px; text-align: center;
@@ -54,7 +54,7 @@ h1{
                             /*seccion noticias*/
 .noticias{
     background-color: #dde1ce;
-    font-family: "Koulen"; 
+    font-family: "Montserrat"; 
     font-size: 30px; 
     text-align: center;
 }
@@ -68,7 +68,7 @@ h1{
 }
 
 h3{
-    font-family: "Koulen";
+    font-family: "Montserrat";
 }
 h4{
     font-family: "Lato";
@@ -121,7 +121,7 @@ ul li{
     font-family: "Lato";
 }
 .cajafooter .centro{
-    font-family: "Koulen";
+    font-family: "Montserrat";
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -151,27 +151,27 @@ ul li{
 
                                 /*titulos*/
 #quienessomos{
-    font-family: "Koulen";
+    font-family: "Montserrat";
     font-size: 15px;
     text-align: center;
 }
 #cursos{
-    font-family: "Koulen";
+    font-family: "Montserrat";
     font-size: 15px;
     text-align: center;
 }
 #flota{
-    font-family: "Koulen";
+    font-family: "Montserrat";
     font-size: 15px;
     text-align: center;
 }
 #galeria{
-    font-family: "Koulen";
+    font-family: "Montserrat";
     font-size: 15px;
     text-align: center;
 }
 #contactanos{
-    font-family: "Koulen";
+    font-family: "Montserrat";
     font-size: 15px;
     text-align: center;
 }
@@ -238,7 +238,7 @@ h5{
 }
                         /*cursos*/
 
-main .cajacursos1{
+main .cajacursos1, .cajacursos2, .cajacursos3{
     display: flex;
     flex-direction: row;
     margin: 15px;
@@ -246,7 +246,7 @@ main .cajacursos1{
     justify-content: center;
     text-align: center;
 }
-.cajacursos1 .privado{
+.cajacursos1 .privado, .instrumentos{
     width: 400px;
     height: 255px;
     background-color: #ebeab2; 
@@ -257,37 +257,7 @@ main .cajacursos1{
     0 0  0 2px rgb(255,255,255),
     0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
-.cajacursos1 .instrumentos{
-    width: 400px;
-    height: 255px;
-    background-color: #ebeab2; 
-    padding: 30px;
-    margin: 15px;
-    border-radius: 10px;
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
-    0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
-}
-main .cajacursos2{
-    display: flex;
-    flex-direction: row;
-    margin: 15px;
-    padding: 15px;
-    justify-content: center;
-    text-align: center;
-}
-.cajacursos2 .comercial{
-    width: 400px;
-    height: 255px;
-    background-color: #ebeab2; 
-    padding: 30px;
-    margin: 15px;
-    border-radius: 10px;
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
-    0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
-}
-.cajacursos2 .instructor{
+.cajacursos2 .comercial, .instructor{
     width: 400px;
     height: 255px;
     background-color: #ebeab2; 
@@ -299,15 +269,7 @@ main .cajacursos2{
     0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
-main .cajacursos3{
-    display: flex;
-    flex-direction: row;
-    margin: 15px;
-    padding: 15px;
-    justify-content: center;
-    text-align: center;
-}
-.cajacursos3 .multimotor{
+.cajacursos3 .multimotor, .entrenamiento{
     width: 400px;
     height: 255px;
     background-color: #ebeab2; 
@@ -318,17 +280,7 @@ main .cajacursos3{
     0 0  0 2px rgb(255,255,255),
     0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
-.cajacursos3 .entrenamiento{
-    width: 400px;
-    height: 255px;
-    background-color: #ebeab2; 
-    padding: 30px;
-    margin: 15px;
-    border-radius: 10px;
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
-    0 0  0 2px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
-}
+
 
                 /*nosotros*/
 main .somos{
@@ -350,7 +302,7 @@ main .somos{
 }
 
 h5{
-    font-family: "Koulen";
+    font-family: "Montserrat";
     font-size: 15px;
 }
 p{

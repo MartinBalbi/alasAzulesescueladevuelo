@@ -1,0 +1,16 @@
+main #flota {
+  font-family: "Montserrat";
+  font-size: 15px;
+  text-align: center;
+}
+main #flota p {
+  text-align: start;
+}
+main #flota img {
+  margin-top: 30px;
+}
+main #simulador {
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=flota.css.map */

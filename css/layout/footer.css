@@ -1,0 +1,232 @@
+@charset "UTF-8";
+@media (max-width: 992px) {
+  main .reseñas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cajafooter {
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .presentacion {
+    text-align: center;
+  }
+  .centro {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .caja {
+    flex-direction: column;
+    align-items: center;
+  }
+  .noticia2 {
+    padding: 0px;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  header {
+    font-size: 10px;
+  }
+}
+@media (max-width: 576px) {
+  #menu, #menu-check {
+    display: none;
+  }
+  main .cajacontacto {
+    flex-direction: block;
+    align-items: center;
+  }
+  .datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cajafotos {
+    align-items: center;
+  }
+  main .cajacursos1 {
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+  main .cajacursos2 {
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+  main .cajacursos3 {
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+  .cajacursos1 .privado {
+    width: 75%;
+    height: 25%;
+  }
+  .cajacursos1 .instrumentos {
+    width: 75%;
+    height: 25%;
+  }
+  .cajacursos2 .comercial {
+    width: 75%;
+    height: 25%;
+  }
+  .cajacursos2 .instructor {
+    width: 75%;
+    height: 25%;
+  }
+  .cajacursos3 .multimotor {
+    width: 75%;
+    height: 25%;
+  }
+  .cajacursos3 .entrenamiento {
+    width: 75%;
+    height: 25%;
+  }
+  .noticia-2 .video {
+    display: grid;
+    place-items: center;
+  }
+  .noticia3 .noticia-3 {
+    display: grid;
+    place-items: center;
+  }
+  .col-12 .col-xl-12 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .col-12 .col-xl-12 .noticia2 .noticia-2 {
+    flex-direction: column;
+  }
+  .col-12 .col-xl-12 .noticia3 .noticia-3 {
+    flex-direction: column;
+  }
+  /* menu hamburguesa */
+  #menu-check:not(:checked) ~ nav {
+    display: none;
+  }
+  #menu-check:checked ~ nav {
+    display: block;
+  }
+  #menu {
+    display: block;
+    color: black;
+    background-color: #ecebb3;
+    font-size: 35px;
+    font-weight: bold;
+    border: 2px;
+    border-radius: 5px;
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    z-index: 9999;
+  }
+  #menu-check:checked ~ label #menu-abrir {
+    display: none;
+  }
+  #menu-check:checked ~ label #menu-cerrar {
+    display: block;
+  }
+  header nav {
+    position: absolute;
+    top: 5px;
+    height: 60%;
+    width: 100%;
+    background-color: #2a2c2e;
+    padding-top: 2px;
+    padding-right: 2px;
+    opacity: 0.8;
+    color: white;
+  }
+  header nav ul a {
+    color: white;
+    background-color: none;
+  }
+  header nav ul {
+    display: block;
+    text-align: center;
+  }
+  /* nosotros responsive */
+  main .somos {
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+  }
+  main .mision {
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+  }
+  .somos img {
+    width: 85%;
+  }
+}
+footer {
+  background-image: url(../media/background2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+footer .cajafooter {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .cajafooter .presentacion {
+  font-family: "Lato";
+}
+footer .cajafooter .centro {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}
+footer .cajafooter .centro .centrar {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .cajafooter .centro .centrar ul {
+  list-style-type: none;
+  align-items: center;
+}
+footer .cajafooter .centro .centrar ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .cajafooter .redes {
+  font-family: "Lato";
+}
+footer .cajafooter .redes p {
+  text-align: center;
+}
+@media (max-width: 576px) {
+  footer .cajafooter .redes .centrar {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  footer .cajafooter {
+    display: block;
+  }
+}
+footer .creador {
+  text-align: center;
+  font-family: "Lato";
+}
+
+ul {
+  list-style-type: none;
+}
+ul a {
+  text-decoration: none;
+  color: #2a2c2e;
+}
+
+/*# sourceMappingURL=footer.css.map */

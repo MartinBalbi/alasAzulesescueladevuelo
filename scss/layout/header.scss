@@ -1,0 +1,62 @@
+@import "../basics/mediaquerys";
+
+header{
+    background-color: #ECEBB3;
+    padding: 12px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-size: 25px;
+    align-items: center;
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        li{
+            padding: 15px;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+
+    #menu-check:checked ~ label #menu-abrir{
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-cerrar{
+        display: block;
+    }
+
+    }
+    
+    @include mediaquery2{
+        #menu, #menu-check{
+            display: none;
+        }
+    }
+
+
+    @include mediaquery{
+        #menu, #menu-check{
+            display: none;
+        }
+        nav{
+            position: absolute;
+            top: 5px;
+            height: 60%;
+            width: 100%;
+            background-color: #2a2c2e;
+            padding-top: 2px;
+            padding-right: 2px;
+            opacity: 0.8;
+            color: white;
+        }
+        #menu-cerrar{
+            display: none;
+        }
+       
+    }

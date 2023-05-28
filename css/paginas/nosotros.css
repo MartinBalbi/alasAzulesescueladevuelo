@@ -1,0 +1,75 @@
+@charset "UTF-8";
+main {
+  background-repeat: no-repeat;
+}
+main h1 {
+  text-align: center;
+}
+main .somos {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 15px;
+  align-items: start;
+}
+main .somos .imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+main .mision {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 15px;
+}
+main .mision .texto2 {
+  margin-right: 15px;
+}
+main .mision .imagen2 {
+  display: flex;
+  justify-content: center;
+}
+main .reseñas {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 15px;
+  justify-content: center;
+}
+main .reseñas h3 {
+  text-align: center;
+}
+main .reseñas .instructores {
+  text-align: center;
+  width: 200px;
+  height: 320px;
+  background-color: #ebeab2;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+main .reseñas .alumnos {
+  text-align: center;
+  width: 200px;
+  height: 320px;
+  background-color: #ebeab2;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+main .reseñas .ex-alumnos {
+  text-align: center;
+  width: 200px;
+  height: 320px;
+  background-color: #ebeab2;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=nosotros.css.map */
